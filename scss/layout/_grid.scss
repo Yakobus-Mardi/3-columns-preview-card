@@ -1,0 +1,38 @@
+@use "../globals/colors" as bg;
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 280px);
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  justify-content: center;
+
+  @media (max-width: 480px) {
+    // overflow: scroll;
+    max-width: 300px;
+    grid-template-columns: 1fr;
+    width: min(50ch, 90% - 4rem);
+  }
+
+  &__sedans,
+  &__suv,
+  &__luxury {
+    max-width: 300px;
+    height: 270px;
+    padding: 40px;
+    position: relative;
+  }
+
+  &__sedans {
+    background-color: bg.$bright-orange;
+  }
+
+  &__suv {
+    background-color: bg.$dark-cyan;
+  }
+
+  &__luxury {
+    background-color: bg.$very-dark-cyan;
+  }
+}

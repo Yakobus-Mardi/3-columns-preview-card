@@ -1,0 +1,32 @@
+@use "../globals/colors" as c;
+@use "../util/fonts" as u;
+
+.btn {
+  padding: 10px 18px;
+  position: absolute;
+  border-radius: 20px;
+  border: none;
+  font-size: 0.7rem;
+  font-family: u.$font-paragraph;
+  width: 110px;
+  bottom: 25px;
+
+  &__sedans {
+    color: c.$bright-orange;
+  }
+
+  &__suv {
+    color: c.$dark-cyan;
+  }
+
+  &__luxury {
+    color: c.$very-dark-cyan;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid c.$very-light-gray;
+    color: c.$very-light-gray;
+  }
+}

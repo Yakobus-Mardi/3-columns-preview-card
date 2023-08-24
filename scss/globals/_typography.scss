@@ -1,0 +1,16 @@
+@use "../util/" as u;
+@use "./colors" as c;
+
+h2 {
+  font-family: u.$font-heading;
+  color: c.$very-light-gray;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: u.$font-paragraph;
+  color: c.$transparent-white;
+  margin-top: 0;
+  font-size: clamp(0.5rem, 8vw, 0.9rem);
+}

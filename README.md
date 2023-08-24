@@ -20,8 +20,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/Yakobus-Mardi/3-columns-preview-card)
+- Live Site URL: [](https://yakobus-mardi.github.io/3-columns-preview-card/)
 
 ## My process
 
